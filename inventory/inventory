@@ -1,0 +1,12 @@
+# Use INI format
+# Example
+# [primary]
+# 192.168.1.10
+#
+#
+# [secondary]
+# 192.168.100.10
+#
+#
+#
+

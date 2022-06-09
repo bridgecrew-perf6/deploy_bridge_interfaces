@@ -1,0 +1,13 @@
+---
+- name: Convert interfaces to bridges
+  hosts: all
+  become: True
+  gather_facts: True
+  tasks:
+    - name: show the default interfaces for the host
+      debug:
+          var: ansible_interfaces
+
+    - name: show the default ip address
+      debug:
+         var: ansible_default_ipv4
